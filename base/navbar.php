@@ -1,5 +1,7 @@
 
-<?php include "./css/navbar/navbar.css"; ?>
+<head>
+  <link rel="stylesheet" href="./css/navbar.css">
+</head>
 
 <div class="prueba">
   <a href="#" class="w3-bar-item w3-button">Home</a>
