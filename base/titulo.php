@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<link rel='stylesheet' href='./css/navbar/navbar.css'>
+<link rel='stylesheet' href='./css/titulo/titulo.css'>
 </head>
 <body>
     <canvas id='canvas' width='210' height='297'></canvas>
