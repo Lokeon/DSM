@@ -1,9 +1,6 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Inkscape Output</title>
-</head>
 <body>
     <canvas id='canvas' width='210' height='297'></canvas>
     <script>
