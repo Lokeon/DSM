@@ -1,4 +1,3 @@
-<?php
-$title ="Index";include "./template/head.php"
-?>
+<?php include "css/text/font.php"?>
 
+<h1> HOOla </h1>
