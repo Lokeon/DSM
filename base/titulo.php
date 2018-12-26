@@ -5,7 +5,7 @@
 <link rel='stylesheet' href='./css/titulo/titulo.css'>
 </head>
 <body>
-    <canvas id='canvas' width='210' height='297'></canvas>
+    <canvas id='canvas' width='210' height='190'></canvas>
     <script>
     var ctx = document.getElementById("canvas").getContext("2d");
     	

@@ -3,19 +3,19 @@
 </head>
 
 <div class="navbar">
-  <a href="#" >Inicio</a>
+  <a href="./index.php" >Inicio</a>
   <div class="dropdown">
     <button class="dropbtn">Programación
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="">Lunes</a>
-      <a href="">Martes</a>
-      <a href="">Miércoles</a>
-      <a href="">Jueves</a>
-      <a href="">Viernes</a>
-      <a href="">Sábado</a>
-      <a href="">Domingo</a>
+      <a href="./programacion/proLunes.php">Lunes</a>
+      <a href="./programacion/proMartes.php">Martes</a>
+      <a href="./programacion/proMiercoles.php">Miércoles</a>
+      <a href="./programacion/proJueves.php">Jueves</a>
+      <a href="./programacion/proViernes.php">Viernes</a>
+      <a href="./programacion/proSabado.php">Sábado</a>
+      <a href="./programacion/proDomingo.php">Domingo</a>
     </div>
   </div>
 
@@ -24,9 +24,9 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="">Edificio</a>
-      <a href="">Ciudad</a>
-      <a href="">Estadísticas</a>
+      <a href="./info/infoEdificio.php">Edificio</a>
+      <a href="./info/infoCiudad.php">Ciudad</a>
+      <a href="./info/infoEstadisticas.php">Estadísticas</a>
     </div>
   </div>
 
@@ -35,10 +35,10 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="">Estilos musicales</a>
-      <a href="">Grupos musicales</a>
-      <a href="">Bailarines</a>
+      <a href="./cartel/cartelEstMus.php">Estilos musicales</a>
+      <a href="./cartel/cartelGrupMus.php">Grupos musicales</a>
+      <a href="./cartel/cartelBailarines.php">Bailarines</a>
     </div>
   </div>
-  <a href="#" >Galería</a>
+  <a href="./galeria/galeria.php" >Galería</a>
 </div> 
