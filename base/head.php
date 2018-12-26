@@ -1,1 +1,3 @@
-<?php include "titulo.php"; ?>
+<?php include "titulo.php"; 
+      include "navbar.php";
+?>
