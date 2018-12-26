@@ -1,17 +1,44 @@
-
 <head>
-  <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/navbar/navbar.css">
 </head>
 
-<div class="prueba">
-  <a href="#" class="w3-bar-item w3-button">Home</a>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button">Dropdown</button>
-    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-      <a href="#" class="w3-bar-item w3-button">Link 1</a>
-      <a href="#" class="w3-bar-item w3-button">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+<div class="navbar">
+  <a href="#" >Inicio</a>
+  <div class="dropdown">
+    <button class="dropbtn">Programación
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="">Lunes</a>
+      <a href="">Martes</a>
+      <a href="">Miércoles</a>
+      <a href="">Jueves</a>
+      <a href="">Viernes</a>
+      <a href="">Sábado</a>
+      <a href="">Domingo</a>
     </div>
   </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Información
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="">Edificio</a>
+      <a href="">Ciudad</a>
+      <a href="">Estadísticas</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Cartel
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="">Estilos musicales</a>
+      <a href="">Grupos musicales</a>
+      <a href="">Bailarines</a>
+    </div>
+  </div>
+  <a href="#" >Galería</a>
 </div> 

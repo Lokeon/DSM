@@ -1,1 +1,1 @@
-<?php include "./css/titulo/titulo.php"; ?>
+<?php include "titulo.php"; ?>

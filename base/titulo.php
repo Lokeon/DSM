@@ -1,6 +1,9 @@
-
 <!DOCTYPE html>
 <html>
+
+<head>
+<link rel='stylesheet' href='./css/navbar/navbar.css'>
+</head>
 <body>
     <canvas id='canvas' width='210' height='297'></canvas>
     <script>

@@ -3,7 +3,7 @@
       include "base/navbar.php";
 ?>
 
-<h1> HOOla </h1>
+<h1> Hola </h1>
 
 
 
