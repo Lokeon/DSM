@@ -1,4 +1,4 @@
-<?php include "css/text/font.php";
+<?php
 include "base/head.php";
 ?>
 

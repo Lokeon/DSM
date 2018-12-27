@@ -1,7 +1,5 @@
-<head>
-    <link rel="stylesheet" href="./css/navbar/navbar.css">
-</head>
-
+<?php
+?>
 <div class="navbar">
   <a href="./index.php" >Inicio</a>
   <div class="dropdown">
@@ -9,13 +7,13 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="./programacion/proLunes.php">Lunes</a>
-      <a href="./programacion/proMartes.php">Martes</a>
-      <a href="./programacion/proMiercoles.php">Miércoles</a>
-      <a href="./programacion/proJueves.php">Jueves</a>
-      <a href="./programacion/proViernes.php">Viernes</a>
-      <a href="./programacion/proSabado.php">Sábado</a>
-      <a href="./programacion/proDomingo.php">Domingo</a>
+      <a href="programacion/proLunes.php">Lunes</a>
+      <a href="programacion/proMartes.php">Martes</a>
+      <a href="programacion/proMiercoles.php">Miércoles</a>
+      <a href="programacion/proJueves.php">Jueves</a>
+      <a href="programacion/proViernes.php">Viernes</a>
+      <a href="programacion/proSabado.php">Sábado</a>
+      <a href="programacion/proDomingo.php">Domingo</a>
     </div>
   </div>
 

@@ -1,3 +1,3 @@
 <?php 
-include "base/head.php";
+include "../base/head.php";
 ?>
