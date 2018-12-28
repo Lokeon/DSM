@@ -1,0 +1,65 @@
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#est1 {
+  width: 350x;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+
+#bap {
+  width: 400px;
+  height: 590px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+
+#bap1 {
+  width: 400px;
+  height: 340px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#bap2 {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+
+#sap {
+  width: 400px;
+  height: 280px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+
+#sap1 {
+  width: 400px;
+  height: 270px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#sap2 {
+  width: 400px;
+  height: 190px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}

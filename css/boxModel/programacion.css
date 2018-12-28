@@ -1,0 +1,24 @@
+#lunes {
+    width: 360px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 5px;
+}
+#martes {
+    width: 500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 5px;
+}
+#miercoles {
+    width: 510px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 5px;
+}
+#domingo {
+    width: 550px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 5px;
+}
