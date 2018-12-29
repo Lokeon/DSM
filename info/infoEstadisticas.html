@@ -52,14 +52,16 @@
         <main>
         <script src="../imagenes/chartjs/Chart.bundle.min.js"></script>
 <script src="../imagenes/chartjs/chartjs-plugin-annotation.min.js"></script>
-<div style="float:left;">
+<div class="row">
+<div class="column">
 <canvas id="salsa" width="350" height="350"></canvas>
-</div>
 <canvas id="bachata" width="350" height="350"></canvas>
-<div style="float:left;">
-<canvas id="merengue" width="350" height="350"></canvas>
 </div>
+<div class="column">
+<canvas id="merengue" width="350" height="350"></canvas>
 <canvas id="premios" width="350" height="350"></canvas>
+</div>
+</div>
 <script>
 
 var ctx = document.getElementById("salsa").getContext('2d');
