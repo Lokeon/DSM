@@ -50,6 +50,37 @@
             </div>
         </header>
         <main>
+        <video id="video" width="420">
+                <source src="mov_bbb.mp4" type="video/mp4">
+            </video>
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="hacerGrande()">Grande</button>
+            <button onclick="hacerPequeño()">Pequeño</button>
+            <button onclick="hacerNormal()">Normal</button>
+            <br><br>
+        </div> 
         </main>
+        <script> 
+            var myVideo = document.getElementById("video"); 
+
+            function playPause() { 
+            if (myVideo.paused) 
+                myVideo.play(); 
+            else 
+                myVideo.pause(); 
+            } 
+
+            function hacerGrande() { 
+            myVideo.width = 560; 
+            } 
+
+            function hacerPequeño() { 
+            myVideo.width = 320; 
+            } 
+
+            function hacerNormal() { 
+            myVideo.width = 420; 
+            } 
+        </script>
     </body>
 <html>
