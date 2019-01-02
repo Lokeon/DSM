@@ -1,13 +1,4 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inkscape Output</title>
-</head>
-<body>
-    <canvas id='canvas' width='210' height='297'></canvas>
-    <script>
-    var ctx = document.getElementById("canvas").getContext("2d");
+var ctx = document.getElementById("canvas").getContext("2d");
     	
 // #layer1
 	
@@ -6766,7 +6757,3 @@
 	ctx.bezierCurveTo(163.932450, 122.582990, 163.814860, 122.494790, 163.814860, 122.384550);
 	ctx.fill();
 	ctx.restore();
-
-    </script>
-</body>
-</html>
