@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
+     inkscape:zoom="0.25000001"
      inkscape:cx="459.04536"
-     inkscape:cy="562.50349"
+     inkscape:cy="741.91474"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1058"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -90,5 +90,22 @@
        id="path849"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sscscs" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.38372421px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50959313"
+       x="75.811729"
+       y="35.500526"
+       id="text15"
+       transform="scale(0.82941538,1.2056685)"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="75.811729"
+         y="35.500526"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.50959313">BACHATA</tspan><tspan
+         sodipodi:role="line"
+         x="75.811729"
+         y="60.980183"
+         style="stroke-width:0.50959313"
+         id="tspan17" /></text>
   </g>
 </svg>
