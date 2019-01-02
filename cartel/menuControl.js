@@ -11,10 +11,10 @@ window.onload = function() {
 	playButton.addEventListener("click", function() {
 		if (video.paused == true) {
 			video.play();
-            playButton.innerHTML = "Pause";
+            playButton.innerHTML = "Pausar";
 		} else {
 			video.pause();
-            playButton.innerHTML = "Play";
+            playButton.innerHTML = "Reproducir";
 		}
 	});
     
@@ -22,10 +22,10 @@ window.onload = function() {
 	muteButton.addEventListener("click", function() {
 		if (video.muted == false) {
 			video.muted = true;
-            muteButton.innerHTML = "Unmute";
+            muteButton.innerHTML = "Activar sonido";
 		} else {
 			video.muted = false;
-            muteButton.innerHTML = "Mute";
+            muteButton.innerHTML = "Silenciar";
 		}
 	});
 
