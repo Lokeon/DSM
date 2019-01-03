@@ -1,80 +1,257 @@
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="../css/navbar/navbar.css">
-        <link rel="stylesheet" href="../css/boxModel/galeria.css"/>
-    </head>
-    <body>
-        <header>
-        <div class="titulo">
-        <canvas id='canvas' width='210' height='120'></canvas>
-        <script src="../canvas.js">
-        </script>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/navbar/navbar.css" />
+    <link rel="stylesheet" href="../css/boxModel/galeria.css" />
+    <script src="galeria.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <canvas id="canvas" width="210" height="120"></canvas>
+        <script src="../canvas.js"></script>
+      </div>
+      <div class="navbar">
+        <a href="../index.html">Inicio</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Programación <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../programacion/proLunes.html">Lunes</a>
+            <a href="../programacion/proMartes.html">Martes</a>
+            <a href="../programacion/proMiercoles.html">Miércoles</a>
+            <a href="../programacion/proJueves.html">Jueves</a>
+            <a href="../programacion/proViernes.html">Viernes</a>
+            <a href="../programacion/proSabado.html">Sábado</a>
+            <a href="../programacion/proDomingo.html">Domingo</a>
+          </div>
         </div>
-        <div class="navbar">
-            <a href="../index.html" >Inicio</a>
-            <div class="dropdown">
-                <button class="dropbtn">Programación
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="../programacion/proLunes.html">Lunes</a>
-                    <a href="../programacion/proMartes.html">Martes</a>
-                    <a href="../programacion/proMiercoles.html">Miércoles</a>
-                    <a href="../programacion/proJueves.html">Jueves</a>
-                    <a href="../programacion/proViernes.html">Viernes</a>
-                    <a href="../programacion/proSabado.html">Sábado</a>
-                    <a href="../programacion/proDomingo.html">Domingo</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Información
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="../info/infoEdificio.html">Edificio</a>
-                    <a href="../info/infoCiudad.html">Ciudad</a>
-                    <a href="../info/infoEstadisticas.html">Estadísticas</a>
-                </div>
-            </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Información <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../info/infoEdificio.html">Edificio</a>
+            <a href="../info/infoCiudad.html">Ciudad</a>
+            <a href="../info/infoEstadisticas.html">Estadísticas</a>
+          </div>
+        </div>
 
-            <div class="dropdown">
-                <button class="dropbtn">Cartel
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="../cartel/cartelEstMus.html">Estilos musicales</a>
-                    <a href="../cartel/cartelGrupMus.html">Grupos musicales</a>
-                    <a href="../cartel/cartelBailarines.html">Bailarines</a>
-                </div>
-            </div>
-                <a href="./galeria.html" >Galería</a>
-            </div>
-        </header>
-        <main>
-            <div class="container" id="galeria">
-                <img id="ca1" src="../imagenes/galeria/galpre1.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre2.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre3.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre4.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre5.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre6.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre7.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre8.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre9.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre10.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre11.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre12.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre13.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre14.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre15.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre16.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre17.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre18.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre19.jpg">
-                <img id="ca1" src="../imagenes/galeria/galpre20.jpg">
-            </div>
-        </main>
-    </body>
-<html>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Cartel <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../cartel/cartelEstMus.html">Estilos musicales</a>
+            <a href="../cartel/cartelGrupMus.html">Grupos musicales</a>
+            <a href="../cartel/cartelBailarines.html">Bailarines</a>
+          </div>
+        </div>
+        <a href="./galeria.html">Galería</a>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="galeria">
+        <img
+          onclick="openModal();currentSlide(1)"
+          src="../imagenes/galeria/galpre1.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(2)"
+          src="../imagenes/galeria/galpre2.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(3)"
+          src="../imagenes/galeria/galpre3.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(4) "
+          src="../imagenes/galeria/galpre4.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(5)"
+          src="../imagenes/galeria/galpre5.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(6)"
+          src="../imagenes/galeria/galpre6.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(7)"
+          src="../imagenes/galeria/galpre7.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(8)"
+          src="../imagenes/galeria/galpre8.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(9)"
+          src="../imagenes/galeria/galpre9.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(10)"
+          src="../imagenes/galeria/galpre10.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(11)"
+          src="../imagenes/galeria/galpre11.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(12)"
+          src="../imagenes/galeria/galpre12.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(13)"
+          src="../imagenes/galeria/galpre13.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(14)"
+          src="../imagenes/galeria/galpre14.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(15)"
+          src="../imagenes/galeria/galpre15.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(16)"
+          src="../imagenes/galeria/galpre16.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(17)"
+          src="../imagenes/galeria/galpre17.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(18)"
+          src="../imagenes/galeria/galpre18.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(19)"
+          src="../imagenes/galeria/galpre19.jpg"
+          class="hover-shadow"
+        />
+        <img
+          onclick="openModal();currentSlide(20)"
+          src="../imagenes/galeria/galpre20.jpg"
+          class="hover-shadow"
+        />
+      </div>
+
+      <div id="Modal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="Slides">
+            <div class="numbertext">1 / 20</div>
+            <img src="../imagenes/galeria/gal1.jpg" style="width:100%" />
+          </div>
+
+          <div class="Slides">
+            <div class="numbertext">2 / 20</div>
+            <img src="../imagenes/galeria/gal2.jpg" style="width:100%" />
+          </div>
+
+          <div class="Slides">
+            <div class="numbertext">3 / 20</div>
+            <img src="../imagenes/galeria/gal3.jpg" style="width:100%" />
+          </div>
+
+          <div class="Slides">
+            <div class="numbertext">4 / 20</div>
+            <img src="../imagenes/galeria/gal4.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">5 / 20</div>
+            <img src="../imagenes/galeria/gal5.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">6 / 20</div>
+            <img src="../imagenes/galeria/gal6.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">7 / 20</div>
+            <img src="../imagenes/galeria/gal7.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">8 / 20</div>
+            <img src="../imagenes/galeria/gal8.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">9 / 20</div>
+            <img src="../imagenes/galeria/gal9.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">10/ 20</div>
+            <img src="../imagenes/galeria/gal10.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">11 / 20</div>
+            <img src="../imagenes/galeria/gal11.jpg" style="width:100%" />
+          </div>
+
+          <div class="Slides">
+            <div class="numbertext">12 / 20</div>
+            <img src="../imagenes/galeria/gal12.jpg" style="width:100%" />
+          </div>
+
+          <div class="Slides">
+            <div class="numbertext">13 / 20</div>
+            <img src="../imagenes/galeria/gal13.jpg" style="width:100%" />
+          </div>
+
+          <div class="Slides">
+            <div class="numbertext">14 / 20</div>
+            <img src="../imagenes/galeria/gal14.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">15 / 20</div>
+            <img src="../imagenes/galeria/gal15.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">16 / 20</div>
+            <img src="../imagenes/galeria/gal16.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">17 / 20</div>
+            <img src="../imagenes/galeria/gal17.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">18 / 20</div>
+            <img src="../imagenes/galeria/gal18.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">19 / 20</div>
+            <img src="../imagenes/galeria/gal19.jpg" style="width:100%" />
+          </div>
+          <div class="Slides">
+            <div class="numbertext">20/ 20</div>
+            <img src="../imagenes/galeria/gal20.jpg" style="width:100%" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
