@@ -3,25 +3,43 @@
 }
 
 #lunes {
-  width: 360px;
+  width: 350px;
   padding: 10px;
   border: 5px solid gray;
   margin-top: 5px;
 }
 #martes {
-  width: 500px;
+  width: 450px;
   padding: 10px;
   border: 5px solid gray;
   margin-top: 5px;
 }
 #miercoles {
-  width: 510px;
+  width: 475px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+#jueves {
+  width: 425px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+#viernes {
+  width: 450px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+#sabado {
+  width: 400px;
   padding: 10px;
   border: 5px solid gray;
   margin-top: 5px;
 }
 #domingo {
-  width: 550px;
+  width: 475px;
   padding: 10px;
   border: 5px solid gray;
   margin-top: 5px;
