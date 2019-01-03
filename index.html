@@ -54,9 +54,15 @@
         </div>
         </header>
         <main>
-        <button onclick="handleLoad();" class="playSound">Play Sound</button>
-        <button id="stopBtn" onclick="createjs.Sound.stop();" disabled="disabled">Stop Playing</button>
-        <button id="pauseBtn"  value="Pause" onclick="pause()">Pause</button>    
+            <div id="player">
+                <div id="screen">
+                </div>
+                <div id ="controls">
+                    <button onclick="before()">BEFORE</button>
+                    <button id="play" onclick="play()">PLAY</button>
+                    <button onclick="next()">NEXT</button>
+                </div>
+            </div>    
         </main>
     </body>
 <html>
