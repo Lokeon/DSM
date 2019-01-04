@@ -20,39 +20,39 @@ var sounds = [
     name: "Los Titanes - Sobredosis"
   },
   {
-    src:"Romeo Santos - Propuesta Indecente.mp3",
-    id:3,
-    name:"Romeo Santos - Propuesta Indecente"
+    src: "Romeo Santos - Propuesta Indecente.mp3",
+    id: 3,
+    name: "Romeo Santos - Propuesta Indecente"
   },
   {
-    src:"Romeo Santos - Tuyo.mp3",
-    id:4,
-    name:"Romeo Santos - Tuyo"
+    src: "Romeo Santos - Tuyo.mp3",
+    id: 4,
+    name: "Romeo Santos - Tuyo"
   },
   {
-    src:"Romeo Santos - You.mp3",
-    id:5,
-    name:"Romeo Santos - You"
+    src: "Romeo Santos - You.mp3",
+    id: 5,
+    name: "Romeo Santos - You"
   },
   {
-    src:"Marc Anthony - Hasta Que Te Conoci.mp3",
-    id:6,
-    name:"Marc Anthony - Hasta Que Te Conoci"
+    src: "Marc Anthony - Hasta Que Te Conoci.mp3",
+    id: 6,
+    name: "Marc Anthony - Hasta Que Te Conoci"
   },
   {
-    src:"Marc Anthony - Me Voy A Regalar.mp3",
-    id:7,
-    name:"Marc Anthony - Me Voy A Regalar"
+    src: "Marc Anthony - Me Voy A Regalar.mp3",
+    id: 7,
+    name: "Marc Anthony - Me Voy A Regalar"
   },
   {
-    src:"Marc Anthony - Nadie Como Ella.mp3",
-    id:8,
-    name:"Marc Anthony - Nadie Como Ella"
+    src: "Marc Anthony - Nadie Como Ella.mp3",
+    id: 8,
+    name: "Marc Anthony - Nadie Como Ella"
   },
   {
-    src:"Vicky Corbacho - Que Bonito.mp3",
-    id:9,
-    name:"Vicky Corbacho - Que Bonito"
+    src: "Vicky Corbacho - Que Bonito.mp3",
+    id: 9,
+    name: "Vicky Corbacho - Que Bonito"
   }
 ];
 
@@ -147,12 +147,51 @@ var playSong = function() {
   }
 };
 
+var playList = function() {
+  var list = document.getElementById("list").querySelector("ul");
+  for (var i = 0; i < sounds.length; i++) {
+    var li = document.createElement("li");
+    li.innerHTML = sounds[i].name;
+    li.classList.add("item");
+    li.value = i;
+    list.appendChild(li);
+  }
+};
+
+var playItem = function(eve) {
+  if (eve.target && eve.target.matches("li.item")) {
+    var slider = document.getElementById("slider");
+    current = eve.target.value;
+    if (instance === undefined) {
+      firstLoad(slider);
+    } else {
+      if (instance.paused) {
+        var button = play.querySelector("i");
+        button.classList.remove("fa-play");
+        button.classList.add("fa-pause");
+        trackTime(slider);
+        instance.paused = false;
+      } 
+      clearInterval(positionInterval);
+      instance.stop();
+      instance = createjs.Sound.play(current);
+      updateName();
+      instance.on("complete", nextSong);
+      trackTime(slider);
+    }
+  }
+};
+
 document.addEventListener("DOMContentLoaded", function() {
   var play = document.getElementById("play");
   var next = document.getElementById("next");
   var prev = document.getElementById("previous");
   var slider = document.getElementById("slider");
+  var list = document.getElementById("list").querySelector("ul");
 
+  playList();
+
+  list.addEventListener("click", playItem);
   next.addEventListener("click", nextSong);
   play.addEventListener("click", playSong);
   prev.addEventListener("click", previousSong);
