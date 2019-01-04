@@ -1,28 +1,63 @@
 var instance;
 var positionInterval;
-var assetPath = "assets/audio/";
+var assetPath = "audio/";
 var current = 0;
 var seeking = false;
 var sounds = [
   {
-    src: "Game-Spawn.ogg",
+    src: "Los Titanes - Basto Una Mirada.mp3",
     id: 0,
-    name: "Game-Spawn"
+    name: "Los Titanes - Basto Una Mirada"
   },
   {
-    src: "R-Damage.ogg",
+    src: "Los Titanes - Por Retenerte.mp3",
     id: 1,
-    name: "R Damage"
+    name: "Los Titanes - Por Retenerte"
   },
   {
-    src: "Thunder1.ogg",
+    src: "Los Titanes - Sobredosis.mp3",
     id: 2,
-    name: "Thunder"
+    name: "Los Titanes - Sobredosis"
+  },
+  {
+    src:"Romeo Santos - Propuesta Indecente.mp3",
+    id:3,
+    name:"Romeo Santos - Propuesta Indecente"
+  },
+  {
+    src:"Romeo Santos - Tuyo.mp3",
+    id:4,
+    name:"Romeo Santos - Tuyo"
+  },
+  {
+    src:"Romeo Santos - You.mp3",
+    id:5,
+    name:"Romeo Santos - You"
+  },
+  {
+    src:"Marc Anthony - Hasta Que Te Conoci.mp3",
+    id:6,
+    name:"Marc Anthony - Hasta Que Te Conoci"
+  },
+  {
+    src:"Marc Anthony - Me Voy A Regalar.mp3",
+    id:7,
+    name:"Marc Anthony - Me Voy A Regalar"
+  },
+  {
+    src:"Marc Anthony - Nadie Como Ella.mp3",
+    id:8,
+    name:"Marc Anthony - Nadie Como Ella"
+  },
+  {
+    src:"Vicky Corbacho - Que Bonito.mp3",
+    id:9,
+    name:"Vicky Corbacho - Que Bonito"
   }
 ];
 
 var init = function() {
-  createjs.Sound.alternateExtensions = ["mp3"];
+  createjs.Sound.alternateExtensions = ["ogg"];
   createjs.Sound.registerSounds(sounds, assetPath);
 };
 

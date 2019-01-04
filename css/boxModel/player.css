@@ -42,9 +42,12 @@
 
 #screen{
   font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
   text-align: center;
-  font-size: 1.5rem;
-  width: 50%;
+  font-size: 1.25rem;
+  width: 100%;
   margin:auto;
 }
 
