@@ -59,9 +59,10 @@
   background-color: transparent; 
   background-repeat: no-repeat;  
   background-position: 0px 0px;  
-  border: none;           
-  cursor: pointer;
-  margin-top: 3px;        
+  border: none; 
+  margin-left: 2px;          
+  cursor: pointer;        
+  margin-top: 3px;
   padding-left: 16px;     
   vertical-align: middle;
 }
