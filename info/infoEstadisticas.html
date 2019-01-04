@@ -4,14 +4,13 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="../css/navbar/navbar.css">
         <link rel="stylesheet" href="../css/boxModel/graficas.css">
-        <script src="../js/chartjs/Chart.bundle.min.js"></script>
-        <script src="../js/chartjs/chartjs-plugin-annotation.min.js"></script>
-        <script src="../js/graficas.js"></script>
+        <script src="../js/Chart.bundle.min.js"></script>
+        <script src="../js/chartjs-plugin-annotation.min.js"></script>
     </head>
     <body>
         <header>
         <div class="titulo">
-        <canvas id='canvas' width='210' height='120'></canvas>
+            <canvas id='canvas' width='210' height='120'></canvas>
         <script src="../js/canvas.js">
         </script>
         </div>
@@ -41,7 +40,7 @@
                     <a href="./infoEstadisticas.html">Estadísticas</a>
                 </div>
             </div>
-
+            
             <div class="dropdown">
                 <button class="dropbtn">Cartel
                     <i class="fa fa-caret-down"></i>
@@ -52,20 +51,21 @@
                     <a href="../cartel/cartelBailarines.html">Bailarines</a>
                 </div>
             </div>
-                <a href="../galeria/galeria.html" >Galería</a>
-            </div>
-        </header>
-        <main>
+            <a href="../galeria/galeria.html" >Galería</a>
+        </div>
+    </header>
+    <main>
         <div class="row">
-        <div class="column">
-            <canvas id="salsa" width="350" height="350"></canvas>
-            <canvas id="bachata" width="350" height="350"></canvas>
+            <div class="column">
+                <canvas id="salsa" width="350" height="350"></canvas>
+                <canvas id="bachata" width="350" height="350"></canvas>
+            </div>
+            <div class="column">
+                <canvas id="merengue" width="350" height="350"></canvas>
+                <canvas id="premios" width="350" height="350"></canvas>
+            </div>
         </div>
-        <div class="column">
-            <canvas id="merengue" width="350" height="350"></canvas>
-            <canvas id="premios" width="350" height="350"></canvas>
-        </div>
-        </div>
-        </main>
-    </body>
+    </main>
+    <script src="../js/graficas.js"></script>
+</body>
 <html>
