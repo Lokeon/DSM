@@ -1,22 +1,101 @@
-
 .column {
-    float: left;
-    width: 50%;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  #videos {
-    width: 600px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin-top: 5px;
-  }
-  #ca1 {
-    width: 400px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin-top: 5px;
-  }
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#videos {
+  width: 600px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+#ca1 {
+  width: 400px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin-top: 5px;
+}
+
+#video-barra {
+  width: 200px;
+  margin-top: 3px;
+}
+
+#volumen-barra {
+  width: 60px;
+  margin-top: 3px;
+}
+
+#video-controls {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  width: 500px;
+  height: 30px;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.23);
+}
+
+#play{
+  background-image: url(../../imagenes/icon/play.png);
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 0px 0px;  
+  border: none; 
+  margin-left: 2px;          
+  cursor: pointer;        
+  margin-top: 3px;
+  padding-left: 16px;     
+  vertical-align: middle;
+}
+#pause{
+  background-image: url(../../imagenes/icon/pause.png);
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 0px 0px;  
+  border: none;           
+  cursor: pointer;
+  margin-top: 3px;        
+  padding-left: 16px;     
+  vertical-align: middle;
+}
+#mute {
+  background-image: url(../../imagenes/icon/mute-audio.png);
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 0px 0px;  
+  border: none;   
+  margin-top: 3px;        
+  cursor: pointer;        
+  padding-left: 16px;     
+  vertical-align: middle;
+}
+#sound {
+  background-image: url(../../imagenes/icon/volume.png);
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 0px 0px;  
+  border: none;   
+  margin-top: 3px;        
+  cursor: pointer;        
+  padding-left: 16px;     
+  vertical-align: middle;
+}
+
+#full-screen {
+  background-image: url(../../imagenes/icon/fullscreen.png);
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 0px 0px;  
+  border: none;   
+  margin-top: 3px;        
+  cursor: pointer;                 
+  padding-left: 16px; 
+  padding-bottom: 5px  ; 
+  vertical-align: middle;
+
+}

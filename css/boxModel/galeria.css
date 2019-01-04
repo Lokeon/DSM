@@ -1,6 +1,7 @@
 #galeria {
   margin-top: 50px;
   margin-left: 50px;
+  cursor: pointer;
 }
 .modal {
   display: none;

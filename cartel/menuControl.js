@@ -1,20 +1,18 @@
 window.onload = function() {
 
 	var video = document.getElementById("video");
-	var playButton = document.getElementById("play-pause");
-	var muteButton = document.getElementById("mute");
+	var playButton = document.getElementById("play");
+	var muteButton = document.getElementById("sound");
 	var fullScreenButton = document.getElementById("full-screen");
-	var seekBar = document.getElementById("seek-bar");
-	var volumeBar = document.getElementById("volume-bar");
+	var videoBarra = document.getElementById("video-barra");
+	var volumenBarra = document.getElementById("volumen-barra");
 
     // Pausar/PLay 
 	playButton.addEventListener("click", function() {
 		if (video.paused == true) {
 			video.play();
-            playButton.innerHTML = "Pausar";
 		} else {
 			video.pause();
-            playButton.innerHTML = "Reproducir";
 		}
 	});
     
@@ -22,10 +20,8 @@ window.onload = function() {
 	muteButton.addEventListener("click", function() {
 		if (video.muted == false) {
 			video.muted = true;
-            muteButton.innerHTML = "Activar sonido";
 		} else {
 			video.muted = false;
-            muteButton.innerHTML = "Silenciar";
 		}
 	});
 
@@ -43,8 +39,8 @@ window.onload = function() {
 
 
 	// Cambiar el slider
-	seekBar.addEventListener("change", function() {
-		var time = video.duration * (seekBar.value / 100);
+	videoBarra.addEventListener("change", function() {
+		var time = video.duration * (videoBarra.value / 100);
 		video.currentTime = time;
 	});
 
@@ -52,21 +48,21 @@ window.onload = function() {
 	// Actualizar slider
 	video.addEventListener("timeupdate", function() {
 		var value = (100 / video.duration) * video.currentTime;
-		seekBar.value = value;
+		videoBarra.value = value;
 	});
 
 	// Pausar el video cuando mueves el slider
-	seekBar.addEventListener("mousedown", function() {
+	videoBarra.addEventListener("mousedown", function() {
 		video.pause();
 	});
 
 	// Play video cuando mueves el slider
-	seekBar.addEventListener("mouseup", function() {
+	videoBarra.addEventListener("mouseup", function() {
 		video.play();
 	});
 
 	// Slider sonido
-	volumeBar.addEventListener("change", function() {
-		video.volume = volumeBar.value;
+	volumenBarra.addEventListener("change", function() {
+		video.volume = volumenBarra.value;
 	});
 }
