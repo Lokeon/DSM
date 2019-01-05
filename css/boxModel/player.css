@@ -46,21 +46,18 @@ ul {
 }
 
 ul li {
-  background-color: rgba(254, 48, 48,0.75);
+  background-color: rgba(254, 48, 48, 0.75);
   padding: 10px 10px;
   display: block;
   cursor: pointer;
-  color:#f5f5f5;
-
+  color: #f5f5f5;
 }
 
 ul li:hover {
-  background-color: rgba(254, 48, 48,1);
+  background-color: rgba(254, 48, 48, 1);
 }
 
-
-
-#screen{
+#screen {
   font-family: "Open Sans", sans-serif;
   justify-content: center;
   flex-direction: column;
@@ -68,10 +65,10 @@ ul li:hover {
   text-align: center;
   font-size: 1.25rem;
   width: 100%;
-  margin:auto;
+  margin: auto;
 }
 
-#list{
+#list {
   font-family: "Open Sans", sans-serif;
 }
 
