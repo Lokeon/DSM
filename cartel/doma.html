@@ -1,71 +1,86 @@
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="../css/navbar/navbar.css">
-        <link rel="stylesheet" href="../css/boxModel/bailarines.css">
-        <script src="../js/menuControl.js"></script>
-    </head>
-    <body>
-        <header>
-        <div class="titulo">
-        <canvas id='canvas' width='210' height='120'></canvas>
-        <script src="../js/canvas.js">
-        </script>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/navbar/navbar.css" />
+    <link rel="stylesheet" href="../css/boxModel/bailarines.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="../js/menuControl.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <canvas id="canvas" width="210" height="120"></canvas>
+        <script src="../js/canvas.js"></script>
+      </div>
+      <div class="navbar">
+        <a href="../index.html">Inicio</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Programación <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../programacion/proLunes.html">Lunes</a>
+            <a href="../programacion/proMartes.html">Martes</a>
+            <a href="../programacion/proMiercoles.html">Miércoles</a>
+            <a href="../programacion/proJueves.html">Jueves</a>
+            <a href="../programacion/proViernes.html">Viernes</a>
+            <a href="../programacion/proSabado.html">Sábado</a>
+            <a href="../programacion/proDomingo.html">Domingo</a>
+          </div>
         </div>
-        <div class="navbar">
-            <a href="../index.html" >Inicio</a>
-            <div class="dropdown">
-                <button class="dropbtn">Programación
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="../programacion/proLunes.html">Lunes</a>
-                    <a href="../programacion/proMartes.html">Martes</a>
-                    <a href="../programacion/proMiercoles.html">Miércoles</a>
-                    <a href="../programacion/proJueves.html">Jueves</a>
-                    <a href="../programacion/proViernes.html">Viernes</a>
-                    <a href="../programacion/proSabado.html">Sábado</a>
-                    <a href="../programacion/proDomingo.html">Domingo</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Información
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="../info/infoEdificio.html">Edificio</a>
-                    <a href="../info/infoCiudad.html">Ciudad</a>
-                    <a href="../info/infoEstadisticas.html">Estadísticas</a>
-                </div>
-            </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Información <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../info/infoEdificio.html">Edificio</a>
+            <a href="../info/infoCiudad.html">Ciudad</a>
+            <a href="../info/infoEstadisticas.html">Estadísticas</a>
+          </div>
+        </div>
 
-            <div class="dropdown">
-                <button class="dropbtn">Cartel
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="./cartelEstMus.html">Estilos musicales</a>
-                    <a href="./cartelGrupMus.html">Grupos musicales</a>
-                    <a href="./cartelBailarines.html">Bailarines</a>
-                </div>
-            </div>
-                <a href="../galeria/galeria.html" >Galería</a>
-            </div>
-        </header>
-        <main>
-        <div id="videos"> 
-            <video id="video" width="500">
-                <source src="../videos/Dorin_Marina.mp4" type="video/mp4">
-            </video>
-        <div id="video-controls">
-            <input type="button" id="play" class="play"></button>
-            <input type="range" id="video-barra" value="0">
-            <input type="button" id="sound"class="sound"></button>
-            <input type="range" id="volumen-barra" min="0" max="1" step="0.1" value="1">
-            <input type="button" id="full-screen"></button>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Cartel <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./cartelEstMus.html">Estilos musicales</a>
+            <a href="./cartelGrupMus.html">Grupos musicales</a>
+            <a href="./cartelBailarines.html">Bailarines</a>
+          </div>
         </div>
-        </div> 
-        </main>
-    </body>
-<html>
+        <a href="../galeria/galeria.html">Galería</a>
+      </div>
+    </header>
+    <main>
+      <div id="videos">
+        <video id="video" width="500">
+          <source src="../videos/Dorin_Marina.mp4" type="video/mp4" />
+        </video>
+        <div id="video-controls">
+          <input type="button" id="play" class="play" />
+          <input type="range" id="video-barra" value="0" />
+          <input type="button" id="sound" class="sound" />
+          <input
+            type="range"
+            id="volumen-barra"
+            min="0"
+            max="1"
+            step="0.1"
+            value="1"
+          />
+          <input type="button" id="full-screen" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
