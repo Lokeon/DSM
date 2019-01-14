@@ -40,3 +40,8 @@
   margin-top: 5px;
   margin-left: 70px;
 }
+
+#centerlist {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
