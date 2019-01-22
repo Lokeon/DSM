@@ -1,93 +1,82 @@
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../css/navbar/navbar.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/boxModel/estilosMusicales.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="titulo">
-        <canvas id="canvas" width="210" height="120"></canvas>
-        <script src="../js/canvas.js"></script>
-      </div>
-      <div class="navbar">
-        <a href="../index.html">Inicio</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Programación <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="../programacion/proLunes.html">Lunes</a>
-            <a href="../programacion/proMartes.html">Martes</a>
-            <a href="../programacion/proMiercoles.html">Miércoles</a>
-            <a href="../programacion/proJueves.html">Jueves</a>
-            <a href="../programacion/proViernes.html">Viernes</a>
-            <a href="../programacion/proSabado.html">Sábado</a>
-            <a href="../programacion/proDomingo.html">Domingo</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Información <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="../info/infoEdificio.html">Edificio</a>
-            <a href="../info/infoCiudad.html">Ciudad</a>
-            <a href="../info/infoEstadisticas.html">Estadísticas</a>
-          </div>
-        </div>
 
-        <div class="dropdown">
-          <button class="dropbtn">
-            Cartel <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="./cartelEstMus.html">Estilos musicales</a>
-            <a href="./cartelGrupMus.html">Grupos musicales</a>
-            <a href="./cartelBailarines.html">Bailarines</a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="../css/navbar/navbar.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/boxModel/estilosMusicales.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <header>
+    <div class="titulo">
+      <canvas id="canvas" width="210" height="120"></canvas>
+      <script src="../js/canvas.js"></script>
+    </div>
+    <div class="navbar">
+      <a href="../index.html">Inicio</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Programación <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../programacion/proLunes.html">Lunes</a>
+          <a href="../programacion/proMartes.html">Martes</a>
+          <a href="../programacion/proMiercoles.html">Miércoles</a>
+          <a href="../programacion/proJueves.html">Jueves</a>
+          <a href="../programacion/proViernes.html">Viernes</a>
+          <a href="../programacion/proSabado.html">Sábado</a>
+          <a href="../programacion/proDomingo.html">Domingo</a>
         </div>
-        <a href="../galeria/galeria.html">Galería</a>
       </div>
-    </header>
-    <main>
-      <div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Información <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../info/infoEdificio.html">Edificio</a>
+          <a href="../info/infoCiudad.html">Ciudad</a>
+          <a href="../info/infoEstadisticas.html">Estadísticas</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          Cartel <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./cartelEstMus.html">Estilos musicales</a>
+          <a href="./cartelGrupMus.html">Grupos musicales</a>
+          <a href="./cartelBailarines.html">Bailarines</a>
+        </div>
+      </div>
+      <a href="../galeria/galeria.html">Galería</a>
+    </div>
+  </header>
+  <main>
+    <div class="container" id="flex">
+      <div id="est1">
         <a href="./bachata.html">
-          <img
-            id="est1"
-            src="../imagenes/estilos/bachata.svg"
-            width="350px"
-            height="350px"
-          />
-        </a>
-        <a href="./salsa.html">
-          <img
-            id="est1"
-            src="../imagenes/estilos/salsa.svg"
-            width="350px"
-            height="350px"
-          />
-        </a>
-        <a href="./merengue.html">
-          <img
-            id="est1"
-            src="../imagenes/estilos/merengue.svg"
-            width="350px"
-            height="350px"
-          />
+          <img id="imag" src="../imagenes/estilos/bachata.svg" />
         </a>
       </div>
-    </main>
-  </body>
-  <html></html>
+      <div id="est1">
+        <a href="./salsa.html">
+          <img id="imag" src="../imagenes/estilos/salsa.svg" />
+        </a>
+      </div>
+      <div id="est1">
+        <a href="./merengue.html">
+          <img id="imag" src="../imagenes/estilos/merengue.svg" />
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+<html>
+
+</html>
+
 </html>
