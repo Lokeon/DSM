@@ -11,12 +11,8 @@
 }
 
 #map {
-  width: 700px;
-  height: 500px;
-  padding: 10px;
   border: 5px solid gray;
-  display: block;
-  margin: 0 auto;
+  display: flex;
 }
 
 #imag {
@@ -24,4 +20,16 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+iframe {
+  margin-top: 250px;
+  margin-bottom: -225px;
+  border: 5px solid gray;
+  display: block;
+  left: 50%;
+  height: 500px;
+  width: 75%;
+  position: relative;
+  transform: translate(-50%, -50%);
 }
