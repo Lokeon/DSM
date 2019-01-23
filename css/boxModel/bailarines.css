@@ -1,5 +1,5 @@
 #videos {
-  margin-top: 325px;
+  margin-top: 30%;
   border: 5px solid gray;
   display: block;
   left: 50%;
@@ -17,8 +17,6 @@
 }
 
 .container {
-  min-height: 200px;
-  min-width: 200px;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
